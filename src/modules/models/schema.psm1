@@ -12,6 +12,7 @@ function Get-BlacklistedFileNames {
         '~$'
     )
 }
+
 function Test-Filter {
     param ([string]$FilterString)
 
